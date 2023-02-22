@@ -144,7 +144,7 @@ export default {
           flowChart: true, // 默认不解析
           sequenceDiagram: true, // 默认不解析
           syncScrolling: 'single',
-          htmlDecode: 'style,script,iframe|filterXSS',
+          htmlDecode: 'style,script,iframe|on',
           imageUpload: true,
           imageFormats: [
             'jpg',
